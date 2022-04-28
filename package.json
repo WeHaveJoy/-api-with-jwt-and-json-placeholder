@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
+    "devStartAuth": "authServer.js",
     "test": "mocha"
     
   },

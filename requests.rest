@@ -1,4 +1,4 @@
-GET http://localhost:3000/posts
+GET http://localhost:4000/posts
 Authorization: Bearer 
 0ca86b9cd563f46c5505ad8d2393372368580de5a7f1f98972d158cca57be43958f79baec67667638126df7f81f44da9be6fa62082984db6d5910a15d50e29aa
 
