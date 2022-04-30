@@ -17,28 +17,6 @@ const posts = [
     }
 ]
 
-
-
-
-// // fields to be read from the DOM
-// const domFields = {
-//     description,
-//     image,
-//     gender,
-//     season,
-//     price
-//   };
-  
-//   axios.post('/api/garments', domFields)
-//     .then((result) => {
-//         // show snackbar - with success message
-//         console.log(result.data);
-//     })
-//     .catch(err => {
-//       console.log(err);
-//     });
-  
-
 app.get('/posts', authenticateToken, (req, res) => {
     res.json(posts.filter(post => post.username === req.user.name))
     })
